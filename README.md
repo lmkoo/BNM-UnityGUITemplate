@@ -2,7 +2,7 @@
 Old leaked SPM Gui remade by Ossuary, Mr.E, and JaeAPK. [Credits](https://kawaiiclique.vercel.app/Project/CPPMenuHook)
 
 # How to add files
-Put all of these files in your Include folder and add ModGUI.cpp & GUISettings.cpp to your CMakeLists. 
+Put all of these files in your Include folder and add Include/GUI/ModGUI.cpp & Include/GUI/GUISettings.cpp to your CMakeLists. 
 
 # Usage for hooks
 ```cpp
@@ -28,3 +28,4 @@ Join My Discord - [Discord Link](https://discord.gg/Jn2tBbNNfj)
 --
 
 This code is allowed to be used by anyone, just credit the people in the credits.
+
