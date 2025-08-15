@@ -161,6 +161,21 @@ void ModGUI::Update() {
             };
         }
     }
+    //Only For Gorilla Tag
+    auto motdtextGO = GameObject::Find("motdtext");
+    auto textComp = (Text*) motdtextGO->GetComponent(Text::GetType());
+    auto font = textComp->GetFont();
+    Button* fontButton = FindButton("Menu Font");
+    if (fontButton) {
+        string selectedFont = fontButton->slideNames[fontButton->slide];
+
+        if (selectedFont == "default") {
+            ChangeFont(nullptr);
+        }
+        else if (selectedFont == "COC") {
+            ChangeFont(font);
+        }
+    }
 
     //This is the menu name
     std::string start = "<color=" + theme->titleColor + ">" + BNM_OBFUSCATE("-- KawaiiClique</color>"); //You can change this to your mod name.
@@ -180,3 +195,4 @@ void ModGUI::Update() {
 
     gui->SetText(menuText);
 }
+
