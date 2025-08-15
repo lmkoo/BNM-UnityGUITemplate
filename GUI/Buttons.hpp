@@ -33,8 +33,8 @@ public:
             {
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
                 Button{ .name = "Menu Theme", .type = "slider", .maxSlide = 6, .slideNames = std::vector<std::string>{ "default", "rainbow", "red", "blue", "lmko", "mre", "jae" }},
-
-
+                //Only for Gorilla Tag
+                Button{ .name = "Menu Font", .type = "slider", .maxSlide = 1, .slideNames = std::vector<std::string>{ "default", "COC"}},
             },
             {
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
@@ -76,3 +76,4 @@ public:
             },
     };
 };
+
