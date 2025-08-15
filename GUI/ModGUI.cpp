@@ -91,7 +91,7 @@ void ModGUI::Update() {
         if (click && !cooldown) {
             if (cbutton->type == "toggle") {
                 cbutton->enabled = !cbutton->enabled;
-                if (cbutton->tooltip != "") //NotiLib::SendNotification("[<color=cyan>Kawaii</color>] " + cbutton->tooltip);
+                if (cbutton->tooltip != ""); //NotiLib::SendNotification("[<color=cyan>Kawaii</color>] " + cbutton->tooltip);
 
                 if (cbutton->enabled && cbutton->enableMethod) {
                     cbutton->enableMethod();
@@ -102,7 +102,7 @@ void ModGUI::Update() {
             }
             else if (cbutton->type == "button") {
                 if (cbutton->method) cbutton->method();
-                if (cbutton->tooltip != "") //NotiLib::SendNotification("[<color=cyan>Kawaii</color>] " + cbutton->tooltip); 
+                if (cbutton->tooltip != ""); //NotiLib::SendNotification("[<color=cyan>Kawaii</color>] " + cbutton->tooltip); 
             }
             cooldown = true;
         }
@@ -195,4 +195,5 @@ void ModGUI::Update() {
 
     gui->SetText(menuText);
 }
+
 
