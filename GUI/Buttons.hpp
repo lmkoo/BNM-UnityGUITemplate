@@ -8,7 +8,8 @@
 //Example for including Mod files
 //#include <Mods/ModPage.hpp>
 
-#include <NotiLib/NotiLib.hpp>
+//Only if you have my NotificationLib!
+//#include <NotiLib/NotiLib.hpp>
 #include <Mods/ModSettings.hpp>
 using namespace std;
 class Buttons {
@@ -76,4 +77,5 @@ public:
             },
     };
 };
+
 
