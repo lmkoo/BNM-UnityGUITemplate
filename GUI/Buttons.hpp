@@ -22,22 +22,22 @@ private:
 
 public:
     inline static std::vector<std::vector<Button>> buttons = {
-            {
+            {//Main Page - 1
                 Button{ .name = "Settings", .method = []() { ChangeCat(1); }, .type = "button",},
-                Button{ .name = "PlaceHolder", .method = []() { ChangeCat(2); }, .type = "button"},
+                Button{ .name = "Movement", .method = []() { ChangeCat(2); }, .type = "button"},
                 Button{ .name = "PlaceHolder", .method = []() { ChangeCat(3); }, .type = "button"},
                 Button{ .name = "PlaceHolder", .method = []() { ChangeCat(4); }, .type = "button"},
                 Button{ .name = "PlaceHolder", .method = []() { ChangeCat(5); }, .type = "button"},
                 Button{ .name = "PlaceHolder", .method = []() { ChangeCat(6); }, .type = "button"},
 
             },
-            {
+            {//Settings Page - 2
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
                 Button{ .name = "Menu Theme", .type = "slider", .maxSlide = 6, .slideNames = std::vector<std::string>{ "default", "rainbow", "red", "blue", "lmko", "mre", "jae" }},
                 //Only for Gorilla Tag
                 Button{ .name = "Menu Font", .type = "slider", .maxSlide = 1, .slideNames = std::vector<std::string>{ "default", "COC"}},
             },
-            {
+            {//Movement - 3 
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
                 //Toggle Button
                 //Button{ .name = "Custom Fly", .method = Movement::FlyMethod, .tooltip = "Custom Fly",},
@@ -51,31 +51,20 @@ public:
                 // []() {ExampleMethod("ExampleParameters");} 
                 //As the .method
             },
-            {
+            {//Placeholder - 4
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
 
             },
-            {
+            {//Placeholder - 5
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
 
             },
-            {
+            {//Placeholder - 6
                 Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
-
-            },
-            {
-                Button{ .name = "Back", .method = []() { ChangeCat(0); }, .type = "button"},
-
-            },
-            {
-                Button{ .name = "Back", .method = []() { ChangeCat(5); }, .type = "button"},
-
-            },
-            {
-                Button{ .name = "Back", .method = []() { ChangeCat(7); }, .type = "button"},
 
             },
     };
 };
+
 
 
