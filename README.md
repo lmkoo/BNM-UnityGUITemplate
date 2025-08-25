@@ -1,4 +1,4 @@
-# RemakeOfSPMGui - star this repo!!
+# UnityGUITemplate - star this repo!!
 Old leaked SPM Gui remade by Ossuary, Mr.E, and JaeAPK. If you use this please credit these people ->[Credits](https://kawaiiclique.vercel.app/Projects/CPPMenuHook/)
 
 And please join the discord server at the bottom!!!
@@ -30,6 +30,7 @@ Join My Discord - [Discord Link](https://discord.gg/Jn2tBbNNfj)
 --
 
 This code is allowed to be used by anyone, just credit the people in the credits.
+
 
 
 
