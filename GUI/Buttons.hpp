@@ -10,7 +10,7 @@
 
 //Only if you have my NotificationLib!
 //#include <NotiLib/NotiLib.hpp>
-#include <Mods/ModSettings.hpp>
+
 using namespace std;
 class Buttons {
 private:
@@ -65,6 +65,7 @@ public:
             },
     };
 };
+
 
 
 
