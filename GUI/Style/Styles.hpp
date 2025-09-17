@@ -11,7 +11,7 @@ public:
                     .titleColor = "white",
                     .pointerColor = "white",
                     .enabledColor = "lime",
-                    .disabledColor = "white"
+                    .disabledColor = "red"
             },
             Style{
                     .styleName = "rainbow"
